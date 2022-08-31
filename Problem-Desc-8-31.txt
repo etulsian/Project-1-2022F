@@ -1,0 +1,15 @@
+Log: Amelia (aln4t)
+
+I updated up to Euler's path and am able to traverse all edges without repeats. However, the nodes are still output in the incorrect order.
+
+Possible contributing factors:
+1. I made an edge between the last and first nodes (as per the reading)
+2. In order to fix the issue of infinite recursions or halting the traversals, I had the function select a random new edge in the dictionary of edges, which means that there are segments of correct data in the mix. 
+3. Something about degrees?? I didn't really understand that part.
+
+To visualize the issue:
+
+	Ideal solution: 1 2 3 4 5 6 7 8 9 10
+	Current solution: 3 4 5 6 7 1 2 8 9 10
+
+Should we just make some kind of cleaning function to resolve this, or what could I be doing wrong?
