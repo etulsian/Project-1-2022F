@@ -10,6 +10,6 @@ Possible contributing factors:
 To visualize the issue:
 
 	Ideal solution: 1 2 3 4 5 6 7 8 9 10
-	Current solution: 3 4 5 6 7 1 2 8 9 10
+	Current soluti: 3 4 5 6 7 1 2 8 9 10
 
 Should we just make some kind of cleaning function to resolve this, or what could I be doing wrong?
